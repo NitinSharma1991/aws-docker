@@ -1,0 +1,10 @@
+docker build -t location .
+docker run -p 8080:8080 location
+docker ps
+docker images
+docker stop [container id]
+docker ps -a
+docker rm
+docker rmi
+
+create ecr
